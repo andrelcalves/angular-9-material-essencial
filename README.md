@@ -58,7 +58,7 @@ Para atender a imagem acima de *componentes* onde queremos que cada componente t
 
 ``` templateUrl: 'app.component.html' ```
 
-5) Instalando o Material Design
+5) Instalando o Material Design e Componentes
 
 5.1) Instação
 
@@ -71,5 +71,17 @@ Para criação de um componente no angular, vamos utilizar o comando *ng generat
 ``` ng g c components/template/header ```
 
 
+5.3) Criação do componente Footer
+
+``` ng g c components/template/footer ```
 
 
+5.3) Criação do componente nav, para o componente nav vamos utilizar dois componentes do material (sidenav e list), lembrando que esses componentes precisam ser importados no *app.modude.ts*
+
+``` ng g c components/template/nav ```
+
+``` import { MatSidenavModule } from '@angular/material/sidenav'; import { MatListModule } from '@angular/material/list ```
+
+5.4) Criação do component Inicio(Home), até agora estavamos criando os componentes na pasta *componentes/templates* que estão trechos de componentes reutilizados que possam ser utilizados em mais de uma tela. Porém, quando se tratar de uma tela inteira vamos criar nossos componentes na pasta *views*
+
+``` ng g c views/home/ ``` 
