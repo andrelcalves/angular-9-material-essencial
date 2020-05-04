@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta Azul",
+      "price": 2.29
+    },
+    {
+      "id": 2,
+      "name": "Notebook Daten",
+      "price": 1500.39
+    },
+    {
+      "id": 3,
+      "name": "Iphone X",
+      "price": 8500.22
+    },
+    {
+      "name": "Boné New Era",
+      "price": "129.90",
+      "id": 4
+    }
+  ]
+}
