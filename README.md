@@ -85,3 +85,7 @@ Para criação de um componente no angular, vamos utilizar o comando *ng generat
 5.4) Criação do component Inicio(Home), até agora estavamos criando os componentes na pasta *componentes/templates* que estão trechos de componentes reutilizados que possam ser utilizados em mais de uma tela. Porém, quando se tratar de uma tela inteira vamos criar nossos componentes na pasta *views*
 
 ``` ng g c views/home/ ``` 
+
+5.5) Criação do componentes de cadastro de produtos. Vamos tentar componetizar o máximo os componentes necessários para um CRUD de cadastro. 
+
+``` ng g c views/product-crud/ ``` 
