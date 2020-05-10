@@ -20,4 +20,9 @@ export class ProductReadComponent implements OnInit {
     })
   }
 
+  deteleProduct():void{
+   // this.productService.delete(this.product.id).subscribe( () => {
+    this.productService.showMessage('Produto excluido com sucesso!')
+  }
+
 }
