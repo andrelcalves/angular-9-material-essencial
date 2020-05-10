@@ -2,13 +2,13 @@
   "products": [
     {
       "id": 1,
-      "name": "Caneta Azul",
-      "price": 2.29
+      "name": "Caneta Azul Bic",
+      "price": "3.29"
     },
     {
       "id": 2,
-      "name": "Notebook Daten",
-      "price": 1500.39
+      "name": "Notebook Daten i5",
+      "price": "1500.40"
     },
     {
       "id": 3,
@@ -19,6 +19,11 @@
       "name": "Boné New Era",
       "price": "129.90",
       "id": 4
+    },
+    {
+      "name": "",
+      "price": null,
+      "id": 5
     }
   ]
 }

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router } from '@angular/router';;
+import { LiveAnnouncer } from '@angular/cdk/a11y';
+
 @Component({
   selector: 'app-product-crud',
   templateUrl: './product-crud.component.html',
@@ -7,14 +9,16 @@ import { Router } from '@angular/router';
 })
 export class ProductCrudComponent implements OnInit {
 
-  atributoLegal = "qualquer";
 
-  constructor(private router:Router) { }
+  constructor(private router:Router,private announcer: LiveAnnouncer) {
+      
+   }
 
   ngOnInit(): void {
   }
 
   navigateToProductCreate(): void {
+    this.announcer.announce("Hello world!", "assertive");
     this.router.navigate(['/products/create'])
   }
 
